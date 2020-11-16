@@ -1,0 +1,30 @@
+{
+    "name": "hello-world-framework/route-manager",
+    "type": "project",
+    "description": "Route Manager for the HelloWorld Framework",
+    "keywords": [
+        "route-manager",
+        "route",
+        "manager",
+        "hello-world-framework"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "HW\\Managers\\Route\\": "src/HW/Managers/Route/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
